@@ -1,0 +1,31 @@
+.navbarcontainer{
+    z-index: 200;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    margin-top: 91vh;
+    height: 20vw;
+    box-shadow: 2px 2px 12px -3px black ;
+    background-color: white;
+    position: fixed;
+}
+.navicons{
+    height: 7vw;
+    width: 7vw;
+ 
+}
+.naviconinfo{
+    display: flex;
+    font-size: 3.2vw;
+    display: inline-block;
+
+}
+.navitems{
+    padding: .7%;
+    margin-left: 7%;
+    
+    width: 15vw;
+    height: auto;
+}

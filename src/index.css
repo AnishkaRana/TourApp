@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+   display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #498cc0; */
+background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2b526f;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Customizing scrollbar on specific elements */
+.element-with-custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.element-with-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
+  border-radius: 5px;
+}

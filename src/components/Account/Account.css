@@ -1,0 +1,106 @@
+.accountnav{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    margin-top: 20vh;
+
+}
+.accounthead{
+    display: flex;
+    z-index: 100;
+    background-color: white;
+width: 100%;
+position: fixed;
+height: 18vh;
+box-shadow: 2px 2px 12px -5px black;
+
+}
+.profileinfos{
+    margin-top: 5vh;
+    margin-left: 7%;
+}
+.profilename{
+    font-size: 10vw;
+    font-weight: bolder;
+}
+.profilephone{
+    font-size: 4vw;
+}
+.profileicon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+    width: 20vw;
+    background-color: #16AEE8;
+    border-radius: 50%;
+    color: white;
+    font-size: 13vw;
+    margin-left: 15%;
+    margin-top: 5vh;
+}
+.navs{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    min-height: 20vh;
+    border-radius: 2vw;
+    background-color: #a9e0f6;
+    color: black;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+.navbox{
+    width: 100%;
+    display: flex;
+}
+.profileicon2{
+    height: 20vw;
+    width: 20vw;
+    margin-top: 18%;
+}
+.navsinfo{
+ font-size: 6vw;
+}
+.navbox2{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.navs2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    min-height: 8vh;
+    border-radius: 2vw;
+    background-color: #053244;
+    color: white;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+.navs3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 86%;
+    height: auto;
+    min-height: 8vh;
+    border-radius: 2vw;
+    background-color: red;
+    color: white;
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 5vw;
+}
+.logouticon{
+    height: 15vw;
+    width: 15vw;
+    margin-right: 3%;
+}

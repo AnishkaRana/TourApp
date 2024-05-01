@@ -1,0 +1,275 @@
+.homelogo{
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+    font-size: 17vw;
+    color: black;
+    font-weight: 600;
+    padding: 1%;
+    padding-left: 4%;
+    padding-top: 8%;
+    background-color: white;
+    color: #16AEE8;
+}
+
+.mainhomecontainer{
+    animation: showpage 0.3s ease-in-out forwards;
+}
+@keyframes showpage {
+    from{
+opacity: 0;
+    }
+    to{
+opacity: 1;
+    }
+    
+}
+
+.destinationinput{
+    position: absolute;
+ width: 94%;
+ height: 20vw;
+ margin-left: 3%;
+ border-radius: 10vw;
+ background-color: #9be3ff;
+ margin-top: 18vh;
+}
+
+.searchicon{
+    height: 13vw;
+    width: 13vw;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.inputquestion{
+    position: absolute;
+    font-size: 5vw;
+    font-weight: 700;
+    margin-top: 8%;
+    color:#052634 ;
+}
+.nowwatch{
+    position: absolute;
+    margin-top: -14.2%;
+    margin-left: 56.5%;
+    width: 40%;
+    height: 15vw;
+    background-color: #16AEE8;
+    border-radius: 7vw;
+}
+.clock{
+    height: 12vw ;
+    width: 12vw;
+    margin-left: 6%;
+    margin-top: -1.5%;
+}
+
+.now{
+    position: absolute;
+    color: white;
+    font-size: 5vw;
+    margin-top: 12%;
+}
+
+.suggestions{
+    position: absolute;
+    margin-top: 29vh;
+    margin-left: 3%;
+    padding: 2%;
+    width: 90%;
+    height:auto;
+}
+
+.suggestionshead{
+display: flex;
+    width: 100%;
+    font-size: 6vw;
+    font-weight: 700;
+    color: #16AEE8;
+}
+.seeall{
+    display: flex;
+  margin-left: 45%;
+    font-size: 3.5vw;
+    margin-top: 2%;
+}
+.seggestionsbox{
+    display: flex;
+    margin-top: 5%;
+}
+.suggest{
+    padding: 1%;
+    width: 30%;
+    margin: 1%;
+    height: 13vh;
+    border-radius: 3vw;
+    background-color: #9be3ff;
+}
+.servicetrip{
+    position: absolute;
+    height: 19vw;
+    width: 19vw;
+    border-radius: 4vw;
+   /* margin-left: 5%; */
+}
+
+.intercity{
+    border-radius: 4vw;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 4vw;
+    margin-top: 2%;
+}
+
+.promodesign{
+    background-color: #16AEE8;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin-left: 75%;
+    margin-top: -10%;
+}
+
+.serviceinfo{
+    font-size: 5vw;
+    color: #052634;
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100%;
+}
+
+.promos{
+    position: absolute;
+    overflow: hidden;
+    width: 85%;
+    height: 15vh;
+    background-color: #052634;
+    border-radius: 3vw;
+    padding: 2%;
+    margin-left: 5.5%;
+    margin-top: 53vh;
+}
+
+.promosicon{
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -12%;
+}
+.promoicon2{
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    margin-left: 80%;
+    margin-top: 20%;
+}
+
+.seepromosinfo{
+    color: #16AEE8;
+    font-size: 5vw;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 4%;
+    font-weight: 600;
+    width: 50%;
+}
+.applypromos{
+    color: #16AEE8;
+    font-size: 5vw;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 25%;
+    
+    font-weight: 600;
+    width: 50%;
+}
+.rightarrow{
+    position: absolute;
+    height: 8vw;
+    width: 8vw;
+    margin-left: 7%;
+    margin-top: -1%;
+}
+.reserveblock{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    margin-top: 74vh;
+}
+.reservehead{
+    position: absolute;
+    color: #16AEE8;
+    font-size: 6vw;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 75vh;
+}
+.reserveshowcontainer{
+    margin-top: 7%;
+    width: 300vw;
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+}
+.reserves{
+    width:70%;
+    height: 28vh;
+   margin-top: 2%;
+   margin-left: 2%;
+    border-radius: 4vw;
+    /* border:1px solid black; */
+    overflow: hidden;
+}
+.reserveinfohead{
+    font-weight: 600;
+    margin-top: 3%;
+
+}
+.reserveinfo{
+    font-weight:lighter;
+    margin-top: 3%;
+    color: gray;
+}
+.reservearraow{
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+}
+.reserveimagefly{
+    width:100%;
+    height: 20vh;
+}
+.savehead{
+    position: absolute;
+    color: #16AEE8;
+    font-size: 6vw;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 110vh;
+}
+.nowsave{
+    margin-top: 110vh;
+    width: 100%;
+}
+
+
+.planhead{
+    position: absolute;
+    color: #16AEE8;
+    font-size: 6vw;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 146vh;
+}
+.nowplan{
+    margin-top: 146vh;
+    padding-bottom: 20%;
+}

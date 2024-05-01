@@ -1,0 +1,155 @@
+.androidLarge {
+    width: 100%; 
+    background: #BCC3E7;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 850px; 
+  }
+  
+  .header {
+    background: #E3E5F5;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .dots {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  
+  
+  .inputGroup {
+    background: #DADFF3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: -20px; 
+    padding: 20px;
+    position: relative;
+  }
+  
+  .inputRow {
+    background: #DBDFF3;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .locationIcon {
+    width: 20px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+  
+  .locationIcon2 {
+    width: 20px;
+    height: auto;
+  }
+  
+  .iconRight {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1; 
+  }
+  
+  
+  .amountIcon {
+    width: 48px;  
+    height: 48px; 
+  }
+  
+  .icon {
+    width: 30px; 
+    height: 30px;
+    margin-left: 70px;
+  }
+  
+  .infoText {
+  margin-right: 110px;
+  height: 35;
+  width: 143;
+  font-size: 18px;
+  }
+  
+  .infoValue {
+    font-weight: bold;
+    margin-left: 115px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+  
+  }
+  
+  .infoSectionPaytm {
+    background: #383A69;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    height: 200px;
+  }
+  
+  .infoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .androidLarge {
+      width: 100%; 
+      padding: 15px; 
+      border-radius: 0; 
+      height: 850px;
+    }
+  
+    .header h1 {
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+    
+    .inputRow {
+      padding: 15px;
+    }
+    
+    .infoRow {
+      font-size: 14px;
+      height: 50px;
+    }
+  
+    .PayNowButton {
+      background: #BCC3E7;
+      border-radius: 30px;
+      color: #000;
+      text-align: center;
+      padding: 15px;
+      margin: 75px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 150px; 
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+      border: none;             
+      outline: none;             
+      transition: background-color 0.3s ease;
+      position: absolute; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .PayNowButton:hover {
+      background: #06c23e;      
+    }
+  }
+  
